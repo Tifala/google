@@ -1,0 +1,117 @@
+body { 
+    margin: 0;   /* Remove body margins */
+}
+.left {
+    display: flex;
+    justify-content: end;
+
+}
+.left2 {
+    margin-left: 12px;
+    margin-top: 10px;
+    color: black;
+    
+}
+.centrer {
+    text-align: center;
+    margin-top: 150px;
+}
+.height {
+    height: 120px;
+}
+.marge {
+    border: 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 55px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 2px  gainsboro;
+    background: url('download.png') no-repeat;
+    background-size: 40px; 
+    background-position: right;
+}
+.pad1 {
+    font-size: 17px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 12px;
+    color: rgb(129, 113, 113)
+
+}
+.space {
+text-decoration: none;
+color: rgb(67, 67, 238);
+margin-left: 10px;
+    
+}
+.size {
+height: 25px;
+margin-top: 10px;
+}
+.pading {
+ margin-right: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ color: aliceblue;
+ background-color: blue;
+ 
+
+}
+.spaces {
+    text-decoration: none;
+    color: black;
+}
+.contain {
+    display: flex;
+    margin-right: 20px;
+}
+.contain2 {
+    display: flex;
+    
+}
+.contain1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.space2 {
+    margin-left: 20px; 
+}
+.contain0 {
+    background-color:whitesmoke;
+    border: 1px solid gray ;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    
+
+}
+@media screen and (max-width:1000px)
+{
+     
+    .height {
+        height: 50px;  
+ }
+ .marge {
+    width: 400px;
+    height: 55px;
+ } 
+ .contain2 {
+     display: block;
+ }
+ .contain {
+display: block;
+ }
+  }
+  @media screen and (max-width:405px)
+  {
+      .contain0 {
+          width: 400px;
+      }
+      
+
+      }
